@@ -58,7 +58,7 @@ const Carousel = () => {
       {/* Previous Button */}
       <Button
         onClick={goToPrevious}
-        className="absolute left-4 top-1/2 transform -translate-y-1/2 bg-cyan-200 p-3 rounded-full shadow-lg"
+        className="absolute left-4 top-1/2 transform -translate-y-1/2 bg-cyan-200 p-3 rounded shadow-lg"
       >
         &#8592; {/* Left arrow */}
       </Button>
@@ -66,7 +66,7 @@ const Carousel = () => {
       {/* Next Button */}
       <Button
         onClick={goToNext}
-        className="absolute right-4 top-1/2 transform -translate-y-1/2 bg-cyan-200 p-3 rounded-full shadow-lg"
+        className="absolute right-4 top-1/2 transform -translate-y-1/2 bg-cyan-200 p-3 rounded shadow-lg"
       >
         &#8594; {/* Right arrow */}
       </Button>
